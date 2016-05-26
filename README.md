@@ -1,7 +1,7 @@
 mux
 ===
-[![GoDoc](https://godoc.org/github.com/gorilla/mux?status.svg)](https://godoc.org/github.com/gorilla/mux)
-[![Build Status](https://travis-ci.org/gorilla/mux.svg?branch=master)](https://travis-ci.org/gorilla/mux)
+[![GoDoc](https://godoc.org/github.com/mantyr/mux?status.svg)](https://godoc.org/github.com/mantyr/mux)
+[![Build Status](https://travis-ci.org/mantyr/mux.svg?branch=master)](https://travis-ci.org/mantyr/mux)
 
 http://www.gorillatoolkit.org/pkg/mux
 
@@ -220,7 +220,7 @@ package main
 import (
 	"net/http"
 	"log"
-	"github.com/gorilla/mux"
+	"github.com/mantyr/mux"
 )
 
 func YourHandler(w http.ResponseWriter, r *http.Request) {
